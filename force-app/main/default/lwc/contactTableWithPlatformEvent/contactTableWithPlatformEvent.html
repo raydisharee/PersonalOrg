@@ -1,0 +1,10 @@
+<template>
+    <h2> Contact Datatable</h2>
+    <template if:true={conList}>
+        <lightning-datatable data={conList} columns={columns} key-field="Id" hide-checkbox-column>
+        </lightning-datatable>
+    </template>
+    <template if:true={error}>
+        {error}
+    </template>
+</template>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_only_1_favourite_Food</fullName>
+    <active>true</active>
+    <errorConditionFormula>PICKLISTCOUNT( Favourite_Food__c ) &gt;1</errorConditionFormula>
+    <errorDisplayField>Favourite_Food__c</errorDisplayField>
+    <errorMessage>Select only 1!!</errorMessage>
+</ValidationRule>
