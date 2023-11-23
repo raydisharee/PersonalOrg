@@ -1,5 +1,5 @@
 import { LightningElement, track } from 'lwc';
-
+/* POC to use fetch callout in js*/
 export default class GetMyIp extends LightningElement {
     @track myIp;
 
